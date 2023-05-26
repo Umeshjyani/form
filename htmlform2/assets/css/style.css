@@ -1,0 +1,79 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            /* border box content box */
+}
+.main{
+    background-image:url("/htmlform2/assets/image/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+.form{
+    box-shadow: 0 10px 50px 0 rgba(254, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 450px;
+    /* display: grid; */
+    width: 100%;
+    padding: 20px;
+}
+.button12{
+    border-radius: 20px;
+    box-shadow: 0 10px 50px 0 rgba(254, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.slbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* padding-top: 20px; */
+}
+.forminput{
+    margin: 15px;
+    /* margin-bottom: 30px; */
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    width: 100%;
+}
+.lastbtn{
+    /* margin:10px 0px 25px 0px; */
+    padding: 10px 30px;
+    border: none;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.lbtn{ 
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.lastcbox{
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
